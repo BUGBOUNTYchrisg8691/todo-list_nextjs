@@ -747,4 +747,10 @@ FodyWeavers.xsd
 *.tlog
 
 # End of https://www.toptal.com/developers/gitignore/api/vim,linux,zsh,git,intellij+all,visualstudio,visualstudiocode,vscode,node,yarn,react,sass,less
-n
+
+# avoid cross-platform issues with package-lock.json
+**/package-lock.json
+# ./package-lock.json
+
+# exhuberant ctags
+**/tags*
